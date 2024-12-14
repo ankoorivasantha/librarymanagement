@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <title>VRSEC || Library</title>
+  </head>
+  <body>
+    {% include "library/navbar.html" %}
+    <br><br>
+
+    <div class="container">
+      <h3 class="alert alert-info text-center">Contact Us</h3>
+      <div class="row">
+        <!-- Contact Details -->
+        <div class="col-md-4 text-center">
+          <h4><i class="fa fa-phone"></i> Contact Details</h4>
+          <p>Phone: +91-9876543210</p>
+          <p>Alt Phone: +91-9123456780</p>
+        </div>
+        
+        <!-- Email Details -->
+        <div class="col-md-4 text-center">
+          <h4><i class="fa fa-envelope"></i> Email Details</h4>
+          <p>Email: library@vrsec.ac.in</p>
+          <p>Support: support@vrsec.ac.in</p>
+        </div>
+        
+        <!-- Location Details -->
+        <div class="col-md-4 text-center">
+          <h4><i class="fa fa-map-marker"></i> Location</h4>
+          <p>VR Siddhartha Engineering College</p>
+          <p>Kanchikacherla, Vijayawada, Andhra Pradesh, India</p>
+        </div>
+      </div>
+    </div>
+
+    {% include "library/footer.html" %}
+  </body>
+</html>
